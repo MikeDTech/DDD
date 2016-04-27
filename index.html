@@ -6,36 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>DreamDevelopDeploy.com | Home</title>
-        <!--Font and Icons Must Be Placed Before Stylesheets -->
+        <!--Font / Icons Must Be Placed Before Stylesheets -->
 	    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Varela+Round:300,400,400italic,500,500italic,700,700italic|Material+Icons"> -->
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roberto:300,400,400italic,500,500italic,700,700italic|Material+Icons">
+		<!--Stylesheets -->
 		<link rel="stylesheet" href="styles/material.css">
 
-        <!-- Custom styles for this template -->
-        <link rel="stylesheet" href="styles/app.css"> <!-- Calls Selected Parts of Bootstrap We Want -->
+		<!-- Calls Selected Parts of Bootstrap We Want -->
         <!-- 1 - Loads bootstrap default variables, then my custom variables styles/_variables.scss
         <!-- 2 - Load bootstrap sass files | With the rest commented out files from bower_components/scss -->
         <!-- 3 - Load custom app sass files. | Currently don't have files loading from here, loading them directly as sections below for now -->
 
-
-	    <link rel="stylesheet" href="styles/base.css"> <!-- Sets our Custom Base Styles -->
-
-	    <!-- Sections Settings -->
+		<!-- My Custom CSS -->
+		<link rel="stylesheet" href="styles/app.css">
+		<link rel="stylesheet" href="styles/base.css"> <!-- Sets our Custom Base Styles -->
 	    <link rel="stylesheet" href="styles/nav.css">
 	    <link rel="stylesheet" href="styles/what-we-offer.css"> <!-- Also loads /styles/base/_variables.scss and /styles/base/mixins.scss -->
 	    <link rel="stylesheet" href="styles/contact.css">
-	    <link rel="stylesheet" href="styles/misc.css">
-		  <link rel="stylesheet" href="styles/portfolio.css">
-		  <script src="js/modernizr.custom.53451.js"></script>
+		<link rel="stylesheet" href="styles/portfolio.css">
+		<link rel="stylesheet" href="styles/misc.css">
+		<!-- Header JS Files -->
+		<script src="js/vendor/modernizr.custom.53451.js"></script>
 	  </head>
   <body>
+  <!-- Start ------------------------------------------------------------------------>
+
+  <!--Main Nav -->
+
 	  <nav class="navbar navbar-fixed-top mdl-shadow--8dp">
 		  <div class="navbar-brand">
 			  <h1><img src="img/logo-final.png">  Dream<span>Develop</span>Deploy</h1>
 		  </div>
-		  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#my-collapsing-nav">
-			  &#9776;
+		  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#my-collapsing-nav">&#9776;
 		  </button>
 		  <!--<a class="navbar-brand" href="#"><img src="img/logo-top.png" alt="DreamDresignDevelop.com Logo" height="40">DreamDesignDevelop.com</a>
 		  <p><img class="nav-brand-text" src="img/logo-final.png">  Dream<span>Develop</span>Deploy</p>-->
@@ -62,17 +64,18 @@
 				</li>
             </ul>
         </div>
-
     </nav>
-    <!-- Stage Section -->
-    <div id="stage" class="mdl-shadow--6dp">
-        <div id="stage-caption">
-            <h1>Do what you love<br>We'll develop your website</h1>
-            <h3>We're professional web designers offering affordable web development & maintenance services for individuals and small businesses</h3>
-            <a href="#" class="btn btn-primary nav-btn btn-warning">Get Started Now</a>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Get Started Now</button>
-        </div>
-    </div>
+
+
+<!-- Stage Section -->
+<section id="stage" class="mdl-shadow--6dp">
+	<div id="stage-caption">
+		<h1>Do what you love<br>We'll develop your website</h1>
+		<h3>We're professional web designers offering affordable web development & maintenance services for individuals and small businesses</h3>
+		<a href="#" class="btn btn-primary nav-btn btn-warning">Get Started Now</a>
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Get Started Now</button>
+	</div>
+</section>
 
 	<!--&lt;!&ndash; Stage Section &ndash;&gt;-->
 
@@ -97,17 +100,22 @@
 
         <!--</div>-->
 	<!--</div>-->
+
+
+  <!-- Card Secton -->
+
 	  <section id="card-section" class="feature-alt card-spacing">
 		  <div class="container">
 			  <div class="row">
 				  <div class="feature-content add-padding">
+
+					  <!--Web Design -->
 					  <div class="col-md-4">
 						  <div class="demo-card-square mdl-card mdl-shadow--4dp">
 							  <div class="mdl-card__title web-design mdl-card--expand">
 								  <h2 class="mdl-card__title-text">Web Design</h2>
 							  </div>
-							  <div class="mdl-card__supporting-text">
-								  We develop user friendly, optimized websites.  Utilizing the lastest programming languages and SEO techniques to get new customers from Google.
+							  <div class="mdl-card__supporting-text">We develop user friendly, optimized websites.  Utilizing the lastest programming languages and SEO techniques to get new customers from Google.
 							  </div>
 							  <div class="mdl-card__actions mdl-card--border">
 								  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
@@ -121,6 +129,8 @@
 							  </div>
 						  </div>
 					  </div>
+
+
 					  <!-- Web Applications -->
 					  <div class="col-md-4">
 						  <div class="demo-card-square mdl-card mdl-shadow--2dp">
@@ -142,14 +152,15 @@
 							  </div>
 						  </div>
 					  </div>
-					  <!-- Web Applications -->
+
+
+					  <!-- Web Hosting -->
 					  <div class="col-md-4">
 						  <div class="demo-card-square mdl-card mdl-shadow--2dp">
 							  <div class="mdl-card__title web-hosting mdl-card--expand">
 								  <h2 class="mdl-card__title-text">Web Hosting</h2>
 							  </div>
-							  <div class="mdl-card__supporting-text">
-								  You never have to worry about the online side of your company.  We'll setup and maintain your website.  From registering your domain name, providing updates and hosting your site on our web servers. We take care of everything for you.
+							  <div class="mdl-card__supporting-text">You never have to worry about the online side of your company.  We'll setup and maintain your website.  From registering your domain name, providing updates and hosting your site on our web servers. We take care of everything for you.
 							  </div>
 							  <div class="mdl-card__actions mdl-card--border">
 								  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
@@ -169,7 +180,7 @@
 	  </section>
 
 
-<!--Video Section -->
+<!-- Responsive Web Design #1 Feature Section -->
 
     <section id="feature-one" class="mdl-shadow--6dp">
         <div class="container">
@@ -189,7 +200,8 @@
         </div>
     </section>
 
-<!--iPhone Section -->
+  <!-- UI/UX Experience #2 Feature Section -->
+  <!-- http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry -->
 
     <section id="feature-two" class="feature-dark mdl-shadow--6dp">
         <div class="container">
@@ -210,7 +222,7 @@
         </div>
     </section>
 
-    <!--Macbook Section -->
+  <!-- Google Best Practices: #3 Feature Section -->
 
     <section id="section-three" class="mdl-shadow--6dp">
         <div class="container">
@@ -233,19 +245,25 @@
             </div>
         </div>
     </section>
-	  <section id="dg-container" class="dg-container feature-alt feature-content mdl-shadow--6dp">
-	  <div class="container">
-			  <div class="row">
-				  <div class="col-md-offset-1 col-md-10 top top-padding1">
-		  <h6>Portfolio &amp; Work Samples</h6>
-		  <h2>Past and Present Projects.</h2>
-		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt dignissimos dolorem, ducimus error, facilis molestias, mollitia nulla odit quam similique ullam voluptate? Assumenda exercitationem ipsum nihil, quas quasi ullam.</p>
-</div><div class="col-md-offset-1 col-md-10 top-padding2">
-					 <nav id="portfolio" class="">
-					  <span class="dg-prev">&lt;</span>
-					  <span class="dg-next">&gt;</span>
-				  </nav></div>
-				  <div class="col-md-offset-1 col-md-10 top-padding3">
+
+
+  <!-- Portfolio / Our Projects: #4 Feature Section -->
+  <section id="dg-container" class="dg-container feature-alt feature-content mdl-shadow--6dp">
+  	<div class="container">
+	  <div class="row">
+		  <div class="col-md-offset-1 col-md-10 top top-padding1">
+	  		<h6>Portfolio &amp; Work Samples</h6>
+	  		<h2>Past and Present Projects.</h2>
+	  		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt dignissimos dolorem, ducimus error, facilis molestias, mollitia nulla odit quam similique ullam voluptate? Assumenda exercitationem ipsum nihil, quas quasi ullam.</p>
+		  </div>
+		  <div class="col-md-offset-1 col-md-10 top-padding2">
+			 <nav id="portfolio" class="">
+			  	<span class="dg-prev">&lt;</span>
+			  	<span class="dg-next">&gt;</span>
+			  </nav>
+		  </div>
+
+	  <div class="col-md-offset-1 col-md-10 top-padding3">
 		  <div class="dg-wrapper">
 			  <a href="#"><img src="img/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>
 			  <a href="#"><img src="img/2.jpg" alt="image02"><div>http://www.percivalclo.com/</div></a>
@@ -259,44 +277,14 @@
 			  <a href="#"><img src="img/10.jpg" alt="image10"><div>http://www.neighborhood-studio.com/</div></a>
 			  <a href="#"><img src="img/11.jpg" alt="image11"><div>http://www.beckindesign.com/</div></a>
 			  <a href="#"><img src="img/12.jpg" alt="image12"><div>http://kicksend.com/</div></a>
-		  </div></div>
-
-	  </div></div>	</section>
-
-
-
-
+		  </div>
+	  </div>
+	  </div>
+	</div>
+  </section>
 
 
-	  <!--<section id="dg-container" class="dg-container feature-alt mdl-shadow&#45;&#45;6dp">-->
-
-		  <!--<div class="container">-->
-			  <!--<div class="row">-->
-				  <!--<div class="col-lg-8 col-lg-offset-2">-->
-					  <!--<h6>Portfolio &amp; Work Samples</h6>-->
-					  <!--<h2>Past and Present Projects.</h2>-->
-					  <!--<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt dignissimos dolorem, ducimus error, facilis molestias, mollitia nulla odit quam similique ullam voluptate? Assumenda exercitationem ipsum nihil, quas quasi ullam.</p><br><br><br>-->
-					  <!--<div class="dg-wrapper">-->
-						  <!--<a href="#"><img src="img/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>-->
-						  <!--<a href="#"><img src="img/2.jpg" alt="image02"><div>http://www.percivalclo.com/</div></a>-->
-						  <!--<a href="#"><img src="img/3.jpg" alt="image03"><div>http://www.wanda.net/fr</div></a>-->
-						  <!--<a href="#"><img src="img/4.jpg" alt="image04"><div>http://lifeingreenville.com/</div></a>-->
-						  <!--<a href="#"><img src="img/5.jpg" alt="image05"><div>http://circlemeetups.com/</div></a>-->
-						  <!--<a href="#"><img src="img/6.jpg" alt="image06"><div>http://www.castirondesign.com/</div></a>-->
-						  <!--<a href="#"><img src="img/7.jpg" alt="image07"><div>http://www.foundrycollective.com/</div></a>-->
-						  <!--<a href="#"><img src="img/8.jpg" alt="image08"><div>http://www.mathiassterner.com/home</div></a>-->
-						  <!--<a href="#"><img src="img/9.jpg" alt="image09"><div>http://learnlakenona.com/</div></a>-->
-						  <!--<a href="#"><img src="img/10.jpg" alt="image10"><div>http://www.neighborhood-studio.com/</div></a>-->
-						  <!--<a href="#"><img src="img/11.jpg" alt="image11"><div>http://www.beckindesign.com/</div></a>-->
-						  <!--<a href="#"><img src="img/12.jpg" alt="image12"><div>http://kicksend.com/</div></a>-->
-					  <!--</div>-->
-					  <!--<div class="arrow-nav">-->
-						  <!--<span class="dg-prev">&lt;</span>-->
-						  <!--<span class="dg-next">&gt;</span>-->
-					  <!--</div>-->
-				  <!--</div></div></div></section>-->
-
-
+  <!-- xxxxxxxxxxxxxx: #5 Feature Section -->
 	  <section id="feature-five" class="mdl-shadow--6dp">
         <div class="container">
             <div class="row">
@@ -332,6 +320,7 @@
         </div>
     </section>
 
+  <!-- xxxxxxxxxxxxxx: #6 Feature Section -->
     <section id="feature-six" class="feature-dark mdl-shadow--6dp">
         <div class="container">
             <div class="row">
@@ -354,7 +343,7 @@
     </section>
 
 
-
+  <!-- xxxxxxxxxxxxxx: #7 Feature Section -->
     <section id="feature-seven" class="mdl-shadow--6dp">
         <div class="container">
             <div class="row">
@@ -372,10 +361,7 @@
         </div>
     </section>
 
-    <!-- Feature Eight ----------------------------------------------------->
-    <!-------------Added from SkyApp Site  --------------------------------->
-
-
+  <!-- Full Features List: #8 Feature Section -->
     <section id="section-showcase" class="feature-dark">
         <div class="container-fluid">
             <div class="row">
@@ -465,13 +451,10 @@
     </section>
 
 
-<!--End SkyApp Section ------------------------------------------------->
-
-        <!-- Added from index2.html Contact Selection -->
+  <!-- Free Quote / Estimate Form -->
     <section id="feature-subscribe" class="feature-dark mdl-shadow--6dp">
-
-				<div class="container-fluid">
-					<div class="feature-content">
+		<div class="container-fluid">
+			<div class="feature-content">
 				<div class="row">
 					<div class="col-md-offset-1 col-md-10">
                         <h6>Let us know how we can help.</h6>
@@ -482,53 +465,57 @@
 
 
 
-        <!-- Contact Form -->
+	<!-- Contact Form -->
 
-                        <form action="" id="contact">
-							<div class="col-md-offset-1 col-md-11">
-                                <!-- Name -->
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="^[^±!@£$%^&*_()+§¡€#¢§¶•ªº«\\/<>?:;|=.,[0-9]{1,38}$" id="name">
-                    <label class="mdl-textfield__label"  for="name">Full Name</label>
-                    <span class="mdl-textfield__error">Letters, spaces and hyphens only</span>
-                </div>
+	<form action="" id="contact">
+		<div class="col-md-offset-1 col-md-11">
+			<!-- Name -->
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" pattern="^[^±!@£$%^&*_()+§¡€#¢§¶•ªº«\\/<>?:;|=.,[0-9]{1,38}$" id="name">
+				<label class="mdl-textfield__label"  for="name">Full Name</label>
+				<span class="mdl-textfield__error">Letters, spaces and hyphens only</span>
+			</div>
 
-                <!-- Email -->
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" id="email">
-                    <label class="mdl-textfield__label"  for="email">Email</label>
-                    <span class="mdl-textfield__error">Please enter a valid email address.</span>
-                </div>
+			<!-- Email -->
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" pattern="^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" id="email">
+				<label class="mdl-textfield__label"  for="email">Email</label>
+				<span class="mdl-textfield__error">Please enter a valid email address.</span>
+			</div>
 
-                <!-- Phone -->
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" pattern="^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$" id="phone">
-                    <label class="mdl-textfield__label"  for="phone">Phone</label>
-                    <span class="mdl-textfield__error">Numbers and dashes allowed only.</span>
-                </div>
-
-							<div class="col-md-offset-1 col-md-8">
-                <!-- Multiline Textfield -->
-                <div class="btn btn-lg btn-block mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <textarea class="mdl-textfield__input" type="text" rows= "3" id="message"></textarea>
-                    <label class="mdl-textfield__label"  for="message">Additional Info</label>
-                    </div>
-</div>
-                            <div class="col-md-offset-2 col-md-6">
-                <!-- Submit Button -->
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-rounded-border btn btn-lg btn-block">
-					<input class="btn btn-block btn-blue btn-primary" type="submit" name="" value="Lets Discuss">
-				</div></div>
-					</div></form>
-							</div>
-				</div></div>
-					</div>
+			<!-- Phone -->
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input class="mdl-textfield__input" type="text" pattern="^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$" id="phone">
+				<label class="mdl-textfield__label"  for="phone">Phone</label>
+				<span class="mdl-textfield__error">Numbers and dashes allowed only.</span>
+			</div>
 
 
+		<div class="col-md-offset-1 col-md-8">
+
+			<!-- Multiline Textfield -->
+			<div class="btn btn-lg btn-block mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<textarea class="mdl-textfield__input" type="text" rows= "3" id="message"></textarea>
+				<label class="mdl-textfield__label"  for="message">A few sentences about your project (optional)</label>
+			</div>
+		</div>
+
+		<div class="col-md-offset-2 col-md-6">
+			<!-- Submit Button -->
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-rounded-border btn btn-lg btn-block">
+				<input class="btn btn-block btn-blue btn-primary" type="submit" name="" value="Lets Discuss">
+		</div>
+		</div>
+		</div>
+			</form>
+				</div>
+				</div>
+				</div>
+				</div>
+	</section>
 
 
-    </section>
-    <!-- Subscribe Section -->
+  <!-- Subscribe Section -->
     <!--<section class="subscribe text-center">-->
 
         <!--<div class="container">-->
@@ -572,59 +559,31 @@
 
                  <br><br> -->
 
-
-
-
-
-    <!-- Footer -->
-    <footer id="main-footer" class="mdl-shadow--6dp">
+	<!-- Footer -->
+	<footer id="main-footer" class="mdl-shadow--6dp">
         <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-11">
-                   <h5>Coded by <a href="http://dreamdevelopdeploy.com">DreamDevelopDeploy.com</a> | Admin@DreamDevelopDeploy.com | (484) 880-6011</h5><hr>
-                    <h6>Copyright &copy; 2016 - All Rights Reserved</h6>
-                </div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-11">
+			   <h5>Design by <a href="http://dreamdevelopdeploy.com">DreamDevelopDeploy.com</a> |
+				   <a href="mailto:Admin@DreamDevelopDeploy.com">Admin@DreamDevelopDeploy.com</a> |
+				   <a href="tel:1-484-880-6011">(484)880-6011</a>
+				   </h5><hr>
+				<h6>Copyright &copy; 2016 - All Rights Reserved</h6>
+			</div>
+		</div>
+		</div>
+	</footer>
 
-                <!--<div class="col-md-2">-->
-                    <!--<h6>Our Product</h6>-->
-                    <!--<ul class="list-unstyled">-->
-                        <!--<li><a href="">Features</a></li>-->
-                        <!--<li><a href="">Solutions</a></li>-->
-                        <!--<li><a href="">Plans</a></li>-->
-                        <!--<li><a href="">Login</a></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-2">-->
-                    <!--<h6>Our Team</h6>-->
-                    <!--<ul class="list-unstyled">-->
-                        <!--<li><a href="">About</a></li>-->
-                        <!--<li><a href="">Highlights</a></li>-->
-                        <!--<li><a href="">Investors</a></li>-->
-                        <!--<li><a href="">Partners</a></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-
-                <!--<div class="col-md-2">-->
-                    <!--<h6></h6>-->
-                    <!--<ul class="list-unstyled">-->
-                        <!--<li><a href="">Jobs</a></li>-->
-                        <!--<li><a href="">Contact</a></li>-->
-                        <!--<li><a href="">FAQ</a></li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-
-            </div>
-        </div>
-    </footer>
-
-
-	<script src="js/material.js"></script>
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="js/jquery.js"></script>
+  	<!-- Javascripts -->
+	<script src="js/vendor/material.js"></script>
+    <!-- jQuery 1st | 2nd Bootstrap JS -->
+    <script src="bower_components/jquery/dist/js/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="js/jquery.gallery.js"></script>
-    <script>
+    <script src="js/vendor/jquery.gallery.js"></script>
+
+  	<!-- Inline Scripts -->
+  	<!-- Portfolio Script -->
+  	<script>
         $(function() {
             $('#dg-container').gallery();
         });
@@ -639,7 +598,6 @@
 
 		  ga('create', 'UA-77000207-1', 'auto');
 		  ga('send', 'pageview');
-
 	  </script>
 
 </body>
