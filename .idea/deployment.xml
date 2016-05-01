@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="DesignDevelopDeploy" showNewOnSourceInSync="false">
+  <component name="PublishConfigData" serverName="Browser Sync" showNewOnSourceInSync="false">
     <serverData>
       <paths name="Browser Sync">
         <serverdata>
@@ -9,7 +9,14 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="DesignDevelopDeploy">
+      <paths name="DDD Main">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="DDD __WS__">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

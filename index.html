@@ -26,6 +26,7 @@
 	    <link rel="stylesheet" href="styles/contact.css">
 		<link rel="stylesheet" href="styles/portfolio.css">
 		<link rel="stylesheet" href="styles/misc.css">
+		<link rel="stylesheet" href="styles/buttons.css">
 		<!-- Header JS Files -->
 		<script src="js/vendor/modernizr-custom.js"></script>
 	  </head>
@@ -60,9 +61,8 @@
 				<!--<li class="nav-item">-->
 					<!--<a href="#" class="btn btn-warning nav-btn">Free Consultation</a>-->
 				<!--</li>-->
-				<li>
-					<a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Free Consultation</a>
-				</li>
+					<button class="mdl-button-lg mdl-js-button mdl-js-ripple-effect mdl-button--raised--light mdl-button--accent">Free Consultation</button>
+
             </ul>
         </div>
     </nav>
@@ -71,12 +71,13 @@
 <!-- Stage Section -->
 <section id="stage" class="mdl-shadow--6dp">
 	<div id="stage-caption">
-		<h1>Do what you love.<br>We'll develop your website.</h1>
+		<h1>We develop dream websites.</h1>
+		<!--<h1>Do what you love.<br>We'll develop your website.</h1> -->
+	<!--<h1>Attract customers &amp; increase sales.<br>We'll build &amp; manage your website there.</h1>-->
 		<!--<h1>Attract customers &amp; increase sales.<br>We'll build &amp; manage your website there.</h1>-->
-		<!--<h1>Attract customers &amp; increase sales.<br>We'll build &amp; manage your website there.</h1>-->
-		<h3>We're professional web designers offering affordable web development & maintenance services for individuals and small businesses</h3>
-		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Let talk about how we can help</button>
-		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Learn more about our web solutions</button>
+		<h3>We're professional web designers that develop websites and apps for startups and small businesses</h3>
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised  mdl-button--colored">Let talk about how we can help</button>
+		<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Learn more about our web solutions</button>
 	</div>
 </section>
 
@@ -104,14 +105,32 @@
         <!--</div>-->
 	<!--</div>-->
   
-  <!-- Responsive Web Design #1 Feature Section -->
+  <!-- Our Process #1 Feature Section -->
+  <!-- Send them a document to fill out
+1. Planning
+We setup a meeting to learn about about you and your company.  Your vision, timeline and expectations for your project.
+
+We combine what we’ve learned with our own research and present you with a plan of action.
+
+2. Design
+You’re provided with a “blueprint” of the basic structure and layout of your site.
+
+3. Development
+Your site is coded and main sections are assembled.
+
+4. Testing
+We continue to refine your page and test site functationity and compatibility over different browsers and devices.
+
+5. Deployment
+The final production site is delivered and configured.  You’re site is now online and accessable to you and your customers.
+-->
 
   <section id="design-process" class="mdl-shadow--6dp">
 	  <div class="container">
 		  <div class="row">
 			  <div class="feature-content">
 				  <div class="col-md-offset-1 col-md-10">
-					  <img src="img/web-development-process-new.png" alt="">
+					  <img src="img/our-web-development-process.png" alt="">
 
 					  <h6>Responsive Web Design</h6>
 					  <h2>Webpages that adapt for you.</h2>
@@ -205,14 +224,13 @@
     <section id="feature-one" class="mdl-shadow--6dp">
         <div class="container">
             <div class="row">
-                <div class="feature-content">
-                    <div class="col-lg-6">
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CkoWPp6hdY8?list=PLUoqTnNH-2XyNhhLuYrrmrmV46jVw6RHF" frameborder="0" allowfullscreen></iframe>
+                <div class="feature-content feature-center">
+                    <div class="col-md-6">
+                       <img src="img/responsive-design.png" alt="">
                     </div>
-                    <div class="col-lg-5 col-lg-offset-1">
+                    <div class="col-md-5 col-md-offset-1">
                         <h6>Responsive Web Design</h6>
-                        <h2>Webpages that adapt for you.</h2>
+                        <h2>Webpages that adapt to you.</h2>
                         <p class="lead">Webpages are developed using <em>responsive website design</em>.  Allowing customers the flexibility to visit you using their desktop, tablet or mobile devices.</p>
                     </div>
                 </div>
@@ -226,16 +244,17 @@
     <section id="feature-two" class="feature-dark mdl-shadow--6dp">
         <div class="container">
             <div class="row">
-                <div class="feature-content">
-                    <div class="col-lg-6 feature-caption">
+                <div class="feature-content feature-center">
+                    <div class="col-md-6">
                         <h6>User Friendly</h6>
                         <h2>Stylish yet Simple.</h2>
                         <p class="lead">We design stylish, user friendly websites. Your pages are cleanly coded and fast loading.  Creating a great user experience and impression for your customers.</p>
                         <a href="" class="btn btn-secondary-outline btn-lg">Get in on the Action</a>
                     </div>
 
-                    <div class="col-lg-6 text-sm-center hidden-md-down">
-                        <img src="img/iphone-1.png" alt="iPhone">
+                    <div class="col-md-6 text-sm-center hidden-md-down">
+                        <!--<img src="img/iphone-1.png" alt="iPhone">-->
+						<img src="img/stylish-yet-simple.png" alt="">
                     </div>
                 </div>
             </div>
@@ -247,11 +266,12 @@
     <section id="section-three" class="mdl-shadow--6dp">
         <div class="container">
             <div class="row">
-                <div class="feature-content">
+                <div class="feature-content feature-center">
 
                     <!-- Screenshot From http://trypap.com -->
-					<div class="col-lg-5 hidden-md-down">
-                        <img src="img/macbook.png" alt="Macbook">
+					<div class="col-lg-5 col-hidden-md-down">
+                        <!--<img src="img/macbook.png" alt="Macbook">-->
+						<img src="img/seo-google.png" alt="">
                     </div>
 
 					<div class="col-lg-offset-1 col-lg-6">
@@ -474,7 +494,7 @@
   <!-- Free Quote / Estimate Form -->
     <section id="feature-subscribe" class="feature-dark mdl-shadow--6dp">
 		<div class="container-fluid">
-			<div class="feature-content">
+			<div class="feature-content feature-center">
 				<div class="row">
 					<div class="col-md-offset-1 col-md-10">
                         <h6>Let us know how we can help.</h6>
@@ -584,7 +604,7 @@
         <div class="container">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-11">
-			   <h5>Design by <a href="http://dreamdevelopdeploy.com">DreamDevelopDeploy.com</a> |
+			   <h5>Designed by <a href="http://dreamdevelopdeploy.com">DreamDevelopDeploy.com</a> |
 				   <a href="mailto:Admin@DreamDevelopDeploy.com">Admin@DreamDevelopDeploy.com</a> |
 				   <a href="tel:1-484-880-6011">(484)880-6011</a>
 				   </h5><hr>
@@ -594,15 +614,25 @@
 		</div>
 	</footer>
 
-  	<!-- Javascripts -->
+  <!-- End ---------------------------------------------------------------------------->
+
+  	<!-- Javascript Files -->
 	<script src="js/vendor/material.js"></script>
     <!-- jQuery 1st | 2nd Bootstrap JS -->
     <script src="bower_components/jquery/dist/js/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/vendor/jquery.gallery.js"></script>
 
-  	<!-- Inline Scripts -->
-  	<!-- Portfolio Script -->
+
+  <!-- Angular Scripts -->
+  <script src="js/vendor/angular/angular.min.js"></script>
+  <script src="js/vendor/angular/angular-animate.min.js"></script>
+  <script src="js/vendor/angular/angular-aria.min.js"></script>
+  <script src="js/vendor/angular/angular-material.min.js"></script>
+
+ <script src="js/directives/app.js"></script>
+
+  	<!-- Inline Scripts (Portfolio Script) -->
   	<script>
         $(function() {
             $('#dg-container').gallery();

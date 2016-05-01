@@ -139,12 +139,12 @@ img {
   width: 100%;
   display: flex;
   align-items: center; /*centers it vertically*/
+  //padding-top: 12--0px;
 }
 
 #stage-caption {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
-  max-width: 65rem;
   margin: 0 auto; /*centers it horizontally*/
   text-align: center;
 
@@ -152,13 +152,15 @@ img {
 	color: rgba(white, .70);
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 4.5rem;
+	font-size: 4rem;
 	margin-top: 50px;
   }
 
   h3 {
+	font-size: 1.4rem;
 	color: white;
 	font-weight: 500;
+	padding-bottom: .8rem;
   }
 
 }
@@ -198,7 +200,7 @@ img {
 
 .image-overlay {
   background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0, 1) 100%), url("../img/stage-image.jpg");
-  height: 500px;
+  height: 400px;
   background-size: cover;
 }
 
@@ -287,6 +289,7 @@ img {
   background: $feature-bg-alt;
 }
 
+
 .feature-card-spacing {
   padding-top: 10rem;
 }
@@ -314,6 +317,12 @@ img {
   }
 }
 
+.feature-center img {
+  display: flex;
+  align-items: center; /*centers it vertically*/
+  position: relative;
+  margin: 0 auto;
+}
 
 /* Media Queries */
 
@@ -500,3 +509,4 @@ $showcase-image:'img/showcase.jpg';
 	}
   }
 }
+
