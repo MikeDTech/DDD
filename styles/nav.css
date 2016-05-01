@@ -8,7 +8,7 @@
  Nav
 -------------------------------------------------------------------------- */
 nav {
-  background: #1f2a43;
+  background: #2D3B88;
   padding: 0;
   margin: 0;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.18); }
@@ -19,8 +19,7 @@ nav {
   nav li {
     transition: all 0.5s ease;
     display: inline-block; }
-  nav a {
-    border-bottom: 1px dotted white;
+  nav a:link, nav a:visited {
     color: white;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -29,10 +28,9 @@ nav {
     margin: 0;
     text-decoration: none;
     transition: all 0.5s ease; }
-    nav a:hover, nav a:focus {
-      color: rgba(255, 255, 255, 0.7);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-      transition: all 0.5s ease; }
+  nav a:hover, nav a:focus {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.5s ease; }
 
 .navbar-brand {
   margin-left: .5rem;
@@ -41,6 +39,10 @@ nav {
   padding-top: .3rem;
   padding-bottom: .25rem;
   margin-right: 1rem; }
+  .navbar-brand a:link, .navbar-brand a:visited, .navbar-brand a:hover, .navbar-brand a:active {
+    border-bottom: none;
+    text-transform: capitalize;
+    text-decoration: none; }
   .navbar-brand p {
     color: white;
     font-size: 1.3rem;
@@ -53,9 +55,6 @@ nav {
     margin: 0; }
   .navbar-brand span {
     color: rgba(255, 255, 255, 0.7); }
-
-nav ul li:last-child {
-  border: none; }
 
 .navbar-nav .nav-link {
   margin: 0;
@@ -70,25 +69,9 @@ nav ul li:last-child {
 
 .navbar-nav .nav-item {
   float: none; }
-
-.navbar-nav .nav-item:last-child {
-  margin: .5rem;
-  padding: 0 .5rem; }
-
-.nav-btn-blue {
-  background: #167AC6;
-  border-color: #22557B;
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.2rem; }
-  .nav-btn-blue:hover, .nav-btn-blue:focus {
-    transition: all 0.5s ease; }
-
-.nav-btn {
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.2rem; }
-  .nav-btn:hover, .nav-btn:focus {
-    transition: all 0.5s ease; }
+  .navbar-nav .nav-item a:link, .navbar-nav .nav-item a:visited {
+    border-bottom: 1px dotted white; }
+  .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a:focus {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
 
 /*# sourceMappingURL=nav.css.map */

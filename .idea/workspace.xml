@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d60792-fc3c-4f92-81fe-8d7827bffaca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-bk-4-30-16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-before-ordered.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-before-rearragment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__BK__/DreamDesignDeploy (1)" afterPath="$PROJECT_DIR$/__BK__/DreamDesignDeploy (1)" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__WS__/__BK__/DreamDesignDeploy (1)" afterPath="$PROJECT_DIR$/__WS__/__BK__/DreamDesignDeploy (1)" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/base.css" afterPath="$PROJECT_DIR$/styles/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/base.css.map" afterPath="$PROJECT_DIR$/styles/base.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/base.scss" afterPath="$PROJECT_DIR$/styles/base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/buttons.css" afterPath="$PROJECT_DIR$/styles/buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/buttons.css.map" afterPath="$PROJECT_DIR$/styles/buttons.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/buttons.scss" afterPath="$PROJECT_DIR$/styles/buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/material.css" afterPath="$PROJECT_DIR$/styles/material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/material.css.map" afterPath="$PROJECT_DIR$/styles/material.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/material.scss" afterPath="$PROJECT_DIR$/styles/material.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/nav.css" afterPath="$PROJECT_DIR$/styles/nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/nav.css.map" afterPath="$PROJECT_DIR$/styles/nav.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/nav.scss" afterPath="$PROJECT_DIR$/styles/nav.scss" />
     </list>
     <ignored path="DreamDevelopDeploy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,61 +37,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="634" column="45" selection-start-line="634" selection-start-column="45" selection-end-line="634" selection-end-column="45" />
+            <state relative-caret-position="36">
+              <caret line="590" column="35" selection-start-line="590" selection-start-column="35" selection-end-line="590" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/app.scss">
+      <file leaf-file-name="index-before-ordered.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index-before-ordered.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="514">
+              <caret line="617" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="671" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/base/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5184">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/misc.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buttons.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/buttons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="226">
+              <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,9 +70,16 @@
       <file leaf-file-name="material.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/material.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="1330" column="0" selection-start-line="1330" selection-start-column="0" selection-end-line="1330" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-3145">
+              <caret line="3035" column="0" selection-start-line="3035" selection-start-column="0" selection-end-line="3035" selection-end-column="0" />
+              <folding>
+                <element signature="e#126719#128420#2" expanded="true" />
+                <element signature="e#128430#130131#2" expanded="true" />
+                <element signature="e#130371#131268#1" expanded="true" />
+                <element signature="e#131444#132341#1" expanded="true" />
+                <element signature="e#203157#203758#2" expanded="true" />
+                <element signature="e#203767#204368#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +87,7 @@
       <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="720">
               <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
               <folding />
             </state>
@@ -123,9 +105,7 @@
       <list>
         <option value="$PROJECT_DIR$/styles/nav.css" />
         <option value="$PROJECT_DIR$/index4-19-goodcopy.html" />
-        <option value="$PROJECT_DIR$/styles/nav.scss" />
         <option value="$PROJECT_DIR$/js/material.js" />
-        <option value="$PROJECT_DIR$/styles/material.scss" />
         <option value="$PROJECT_DIR$/styles/base.css" />
         <option value="$PROJECT_DIR$/styles/contact.scss" />
         <option value="$PROJECT_DIR$/index-porfolio-added.html" />
@@ -134,8 +114,11 @@
         <option value="$PROJECT_DIR$/indexbk.html" />
         <option value="$PROJECT_DIR$/js/directives/app.js" />
         <option value="$PROJECT_DIR$/styles/base.scss" />
-        <option value="$PROJECT_DIR$/styles/buttons.scss" />
         <option value="$PROJECT_DIR$/styles/misc.scss" />
+        <option value="$PROJECT_DIR$/styles/material.scss" />
+        <option value="$PROJECT_DIR$/styles/buttons.scss" />
+        <option value="$PROJECT_DIR$/styles/nav.scss" />
+        <option value="$PROJECT_DIR$/index-before-ordered.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -202,6 +185,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DreamDevelopDeploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -226,17 +303,17 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/WS/DreamDevelopDeploy/index.html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WS\DreamDevelopDeploy\bower_components\jquery\dist\js" />
-      <recent name="C:\WS\DreamDevelopDeploy\css" />
-      <recent name="C:\WS\DreamDevelopDeploy" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WS\DreamDevelopDeploy" />
       <recent name="C:\WS\DreamDevelopDeploy\templates\backup-html-pages" />
       <recent name="C:\WS\DreamDevelopDeploy\3DGallery\js" />
       <recent name="C:\WS\DreamDevelopDeploy\3DGallery" />
       <recent name="C:\WS\DreamDevelopDeploy\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WS\DreamDevelopDeploy\bower_components\jquery\dist\js" />
+      <recent name="C:\WS\DreamDevelopDeploy\css" />
+      <recent name="C:\WS\DreamDevelopDeploy" />
     </key>
   </component>
   <component name="RunManager" selected="Chromium Remote.Browser Sync">
@@ -357,7 +434,7 @@
       <workItem from="1459828800000" duration="1669000" />
       <workItem from="1459828800000" duration="573000" />
       <workItem from="1462012235200" duration="8173000" />
-      <workItem from="1462082792649" duration="28801000" />
+      <workItem from="1462082792649" duration="39753000" />
     </task>
     <task id="LOCAL-00001" summary="Created File Structure and Cleaned Up Index.html">
       <created>1461731687601</created>
@@ -370,7 +447,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115529000" />
+    <option name="totallyTimeSpent" value="126481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +460,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27912253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25449872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -394,7 +471,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11066127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11066127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -429,14 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/material.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70074">
-          <caret line="3893" column="14" selection-start-line="3893" selection-start-column="14" selection-end-line="3893" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/styles/base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3258">
@@ -515,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1381">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -642,10 +704,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/base.scss">
+    <entry file="file://$PROJECT_DIR$/styles/buttons.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -674,25 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/material.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="1330" column="0" selection-start-line="1330" selection-start-column="0" selection-end-line="1330" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/buttons.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/misc.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -701,18 +747,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/styles/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="634" column="45" selection-start-line="634" selection-start-column="45" selection-end-line="634" selection-end-column="45" />
+        <state relative-caret-position="720">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/material.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3145">
+          <caret line="3035" column="0" selection-start-line="3035" selection-start-column="0" selection-end-line="3035" selection-end-column="0" />
+          <folding>
+            <element signature="e#126719#128420#2" expanded="true" />
+            <element signature="e#128430#130131#2" expanded="true" />
+            <element signature="e#130371#131268#1" expanded="true" />
+            <element signature="e#131444#132341#1" expanded="true" />
+            <element signature="e#203157#203758#2" expanded="true" />
+            <element signature="e#203767#204368#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="226">
+          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-before-rearragment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-before-ordered.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="617" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="671" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="590" column="35" selection-start-line="590" selection-start-column="35" selection-end-line="590" selection-end-column="35" />
           <folding />
         </state>
       </provider>

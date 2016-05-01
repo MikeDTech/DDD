@@ -890,7 +890,7 @@ p {
   margin-bottom: 16px; }
 
 a {
-  color: rgb(255,64,129);
+  color: rgb(91, 192, 222);
   font-weight: 500; }
 
 blockquote {
@@ -1535,10 +1535,10 @@ $primary-color: rgb(255,152,0);
   background-color: rgb(255,128,171) !important; }
 
 .mdl-color-text--pink-A200 {
-  color: rgb(255,64,129) !important; }
+  color: rgb(91, 192, 222) !important; }
 
 .mdl-color--pink-A200 {
-  background-color: rgb(255,64,129) !important; }
+  background-color: rgb(91, 192, 222) !important; }
 
 .mdl-color-text--pink-A400 {
   color: rgb(245,0,87) !important; }
@@ -3032,7 +3032,7 @@ $primary-color: rgb(255,152,0);
   background-color: rgb(48,63,159) !important; }
 
 .mdl-color--accent {
-  background-color: rgb(255,64,129) !important; }
+  background-color: rgb(91, 192, 222) !important; }
 
 .mdl-color--accent-contrast {
   background-color: rgb(255,255,255) !important; }
@@ -3047,7 +3047,7 @@ $primary-color: rgb(255,152,0);
   color: rgb(48,63,159) !important; }
 
 .mdl-color-text--accent {
-  color: rgb(255,64,129) !important; }
+  color: rgb(91, 192, 222) !important; }
 
 .mdl-color-text--accent-contrast {
   color: rgb(255,255,255) !important; }
@@ -3614,13 +3614,13 @@ $primary-color: rgb(255,152,0);
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: rgb(255,64,129);
+  background: rgb(91, 192, 222);
   color: rgb(255,255,255); }
 .mdl-button .mdl-badge[data-badge]:after {
   top: -10px;
   right: -5px; }
 .mdl-badge.mdl-badge--no-background[data-badge]:after {
-  color: rgb(255,64,129);
+  color: rgb(91, 192, 222);
   background: rgba(255,255,255,0.2);
   box-shadow: 0 0 1px gray; }
 .mdl-badge.mdl-badge--overlap {
@@ -3914,14 +3914,14 @@ input.mdl-button[type="submit"] {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
   background-color: rgba(158,158,158, 0.40); }
 .mdl-button--fab.mdl-button--colored {
-  background: rgb(255,64,129);
+  background: rgb(91, 192, 222);
   color: rgb(255,255,255); }
 .mdl-button--fab.mdl-button--colored:hover {
-  background-color: rgb(255,64,129); }
+  background-color: rgb(91, 192, 222); }
 .mdl-button--fab.mdl-button--colored:focus:not(:active) {
-  background-color: rgb(255,64,129); }
+  background-color: rgb(91, 192, 222); }
 .mdl-button--fab.mdl-button--colored:active {
-  background-color: rgb(255,64,129); }
+  background-color: rgb(91, 192, 222); }
 .mdl-button--fab.mdl-button--colored .mdl-ripple {
   background: rgb(255,255,255); }
 
@@ -3978,12 +3978,12 @@ input.mdl-button[type="submit"] {
   background-color: $primary-color; } //rgb(63,81,181); }
 
 .mdl-button--accent.mdl-button--accent {
-  color: rgb(255,64,129); }
+  color: rgb(91, 192, 222); }
 .mdl-button--accent.mdl-button--accent .mdl-ripple {
   background: rgb(255,255,255); }
 .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
   color: rgb(255,255,255);
-  background-color: rgb(255,64,129); }
+  background-color: rgb(91, 192, 222); }
 
 .mdl-button[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled {
   color: rgba(0,0,0, 0.26);
@@ -4189,7 +4189,7 @@ input.mdl-button[type="submit"] {
   box-sizing: border-box; }
 
 .mdl-card__media {
-  background-color: rgb(255,64,129);
+  background-color: rgb(91, 192, 222);
   background-repeat: repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -7570,7 +7570,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
   bottom: 0;
   left: 0;
   position: absolute;
-  background: rgb(255,64,129);
+  background: rgb(91, 192, 222);
   -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
   animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;
   transition: all 1s cubic-bezier(0.4, 0, 1, 1); }
@@ -8516,7 +8516,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 .mdl-snackbar__action {
   background: transparent;
   border: none;
-  color: rgb(255,64,129);
+  color: rgb(91, 192, 222);
   float: right;
   text-transform: uppercase;
   padding: 14px 24px 14px 12px;

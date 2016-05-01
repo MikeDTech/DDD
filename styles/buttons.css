@@ -109,7 +109,8 @@ input.mdl-button[type="submit"] {
 
 .mdl-button--raised.mdl-button--orange {
   background: #f5880a;
-  color: white; }
+  color: white;
+  text-shadow: 0 0 2px black; }
 
 .mdl-button--raised.mdl-button--orange:hover {
   background: #be6e17; }

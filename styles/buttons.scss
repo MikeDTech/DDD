@@ -172,6 +172,7 @@ input.mdl-button[type="submit"] {
 .mdl-button--raised.mdl-button--orange {
   background: $button-orange;
   color: white;
+  text-shadow: 0 0 2px rgb(0, 0, 0);
 }
 
 .mdl-button--raised.mdl-button--orange:hover {
